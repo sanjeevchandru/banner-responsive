@@ -1,0 +1,57 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	 }													/*		font-family: 'Raleway', sans-serif;
+																										
+															font-family: 'Raleway', sans-serif;
+															font-family: 'Varela Round', sans-serif;*/
+	a{
+		text-decoration:none;
+	}
+	.container{
+		width:85%;
+		margin:auto;
+	}
+	
+	#home-sec{
+		height:100vh;
+		background-image:url("../images/hero-bg.png");
+		background-attachment:fixed;
+	}
+	.home-row{
+		padding:20% 0%;
+	}
+	.home-img img{
+		width:100%;
+	}
+	.home-card{
+		text-align:left;
+	}
+	.home-card h1{
+		color:#3a34eb;
+		font-family: 'Varela Round', sans-serif;
+		
+	}
+	.home-card h3{
+		padding:20px 0px 50px 0px;
+		font-family: 'Raleway', sans-serif;
+	}
+	.home-card button{
+		/* padding:15px 40px; */
+		border-radius:5px;
+		font-size:18px;
+		color:#fff;
+		background-color:#3a34eb;
+		box-shadow:1px 1px 20px 1px #3a34eb;
+	}
+	.home-card button:hover{
+		cursor:pointer;
+	}
+	.home-card button i{
+		padding:0px 10px;
+	}
+	.home-card button:hover .home-card button>i{
+		
+		transform:translateX(10);
+	}
